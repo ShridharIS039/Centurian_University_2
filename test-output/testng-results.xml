@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[BeforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[AdmissionFormPageTest is displayed]]>
+    </line>
+    <line>
+      <![CDATA[BeforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[AdmissionFormPageTest is displayed]]>
+    </line>
+    <line>
+      <![CDATA[UploadDocumentPageTest is displayed]]>
+    </line>
+    <line>
+      <![CDATA[VerifyToAdmissionReportPageTest is pass]]>
+    </line>
+    <line>
+      <![CDATA[BeforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[UploadDocumentPageTest is displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50443" started-at="2022-08-25T11:27:53 IST" finished-at="2022-08-25T11:28:43 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50443" started-at="2022-08-25T11:27:53 IST" finished-at="2022-08-25T11:28:43 IST">
+      <class name="CreateAccountTest.SmokeTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:CreateAccountTest.SmokeTest@491cc5c9]" name="beforeSuite" is-config="true" duration-ms="12" started-at="2022-08-25T11:27:53 IST" finished-at="2022-08-25T11:27:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="connectDB()[pri:0, instance:CreateAccountTest.SmokeTest@491cc5c9]" name="connectDB" is-config="true" duration-ms="9664" started-at="2022-08-25T11:27:53 IST" finished-at="2022-08-25T11:28:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDB -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:CreateAccountTest.SmokeTest@491cc5c9]" name="beforeMethod" is-config="true" duration-ms="14610" started-at="2022-08-25T11:28:03 IST" finished-at="2022-08-25T11:28:17 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyToAdmissionFormPageTest()[pri:-2, instance:CreateAccountTest.SmokeTest@491cc5c9]" name="VerifyToAdmissionFormPageTest" duration-ms="28" started-at="2022-08-25T11:28:17 IST" finished-at="2022-08-25T11:28:17 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[AdmissionFormPageTest is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyToAdmissionFormPageTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:CreateAccountTest.SmokeTest@491cc5c9]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-25T11:28:17 IST" finished-at="2022-08-25T11:28:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:CreateAccountTest.SmokeTest@491cc5c9]" name="beforeMethod" is-config="true" duration-ms="5103" started-at="2022-08-25T11:28:17 IST" finished-at="2022-08-25T11:28:22 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyToAdmissionReportPage1Test()[pri:1, instance:CreateAccountTest.SmokeTest@491cc5c9]" name="VerifyToAdmissionReportPage1Test" duration-ms="9706" started-at="2022-08-25T11:28:22 IST" finished-at="2022-08-25T11:28:32 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[AdmissionFormPageTest is displayed]]>
+            </line>
+            <line>
+              <![CDATA[UploadDocumentPageTest is displayed]]>
+            </line>
+            <line>
+              <![CDATA[VerifyToAdmissionReportPageTest is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyToAdmissionReportPage1Test -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:CreateAccountTest.SmokeTest@491cc5c9]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-08-25T11:28:32 IST" finished-at="2022-08-25T11:28:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:CreateAccountTest.SmokeTest@491cc5c9]" name="beforeMethod" is-config="true" duration-ms="3938" started-at="2022-08-25T11:28:32 IST" finished-at="2022-08-25T11:28:36 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyToUploadDocumentsPageTest()[pri:2, instance:CreateAccountTest.SmokeTest@491cc5c9]" name="VerifyToUploadDocumentsPageTest" duration-ms="5964" started-at="2022-08-25T11:28:36 IST" finished-at="2022-08-25T11:28:42 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[UploadDocumentPageTest is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyToUploadDocumentsPageTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:CreateAccountTest.SmokeTest@491cc5c9]" name="afterMethod" is-config="true" duration-ms="3" started-at="2022-08-25T11:28:42 IST" finished-at="2022-08-25T11:28:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:CreateAccountTest.SmokeTest@491cc5c9]" name="afterClass" is-config="true" duration-ms="1326" started-at="2022-08-25T11:28:42 IST" finished-at="2022-08-25T11:28:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="closeDB()[pri:0, instance:CreateAccountTest.SmokeTest@491cc5c9]" name="closeDB" is-config="true" duration-ms="1" started-at="2022-08-25T11:28:44 IST" finished-at="2022-08-25T11:28:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDB -->
+      </class> <!-- CreateAccountTest.SmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
